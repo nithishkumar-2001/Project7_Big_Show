@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../assets/Poppins/Poppins-Regular.ttf");
+}
+
+body {
+    font-size: 18px;
+    font-family: "poppins";
+}
+
+.red {
+    background: linear-gradient(to right, rgb(250, 3, 85) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all 1s ease;
+
+}
+
+.red:hover {
+    color: white;
+    background-position: left;
+    border: none;
+}
+
+.bg-parent {
+    background: url("../assets/images/portfolio-1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent2 {
+    background: url("../assets/images/porfolio\ 2.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent3 {
+    background: url("../assets/images/portfolio\ 3.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent4 {
+    background: url("../assets/images/portfolio-4.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent5 {
+    background: url("../assets/images/portfolio-5.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent6 {
+    background: url("../assets/images/portfolio-6.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent7 {
+    background: url("../assets/images/portfolio\ 3.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent8 {
+    background: url("../assets/images/portfolio-1\ \(1\).jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent9 {
+    background: url("../assets/images/porfolio\ 7.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent10 {
+    background: url("../assets/images/portoflio\ 8.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent11 {
+    background: url("../assets/images/porfolio\ 2.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-parent12 {
+    background: url("../assets/images/portfolio-1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.margintop {
+    padding-top: 500px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding-top: 15px;
+
+}
+
+.circle:hover {
+    background-color: blue;
+    transition: all 1s;
+    border: none;
+}
+
+.circle1:hover {
+    background-color: yellow;
+    transition: all 1s;
+    border: none;
+    color: black !important;
+}
+
+.circle2:hover {
+    background-color: rgb(236, 38, 97);
+    transition: all 1s;
+    border: none;
+}
+
+.circle3:hover {
+    background-color: rgb(39, 154, 200);
+    transition: all 1s;
+    border: none;
+    color: black !important;
+}
+.botton{
+    background: linear-gradient(to right,#0edc8d 50%,rgb(236, 38, 97) );
+    background-size: 200% 100%;
+    background-position: right;
+    color: black;
+    transition: all 1s ease;
+    border: none;
+}
+.botton:hover{
+    background-position: left;
+    color: white;
+}
+.rotate{
+    transition: transform 0.8s;
+}
+.rotate:hover{
+    transform:  rotate(360deg);
+}
+.active, .nav:hover:hover {
+    background-color: rgb(236, 38, 97);
+    color: white;
+}
+.nav{
+    border: none;
+    outline: none;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+}
