@@ -132,33 +132,70 @@ body {
     border: none;
     color: black !important;
 }
-.botton{
-    background: linear-gradient(to right,#0edc8d 50%,rgb(236, 38, 97) );
+
+/* .botton {
+    background: linear-gradient(to right, #0edc8d 50%, rgb(236, 38, 97));
     background-size: 200% 100%;
     background-position: right;
     color: black;
     transition: all 1s ease;
     border: none;
 }
-.botton:hover{
+
+.botton:hover {
     background-position: left;
     color: white;
-}
-.rotate{
+} */
+
+.rotate {
     transition: transform 0.8s;
 }
-.rotate:hover{
-    transform:  rotate(360deg);
+
+.rotate:hover {
+    transform: rotate(360deg);
 }
-.active, .nav:hover:hover {
+
+.active,
+.nav:hover:hover {
     background-color: rgb(236, 38, 97);
     color: white;
 }
-.nav{
+
+.nav {
     border: none;
     outline: none;
     border-radius: 20px 0 20px 0;
     cursor: pointer;
     font-size: 18px;
     color: black;
+}
+
+.botton1 {
+    width: 9em;
+    height: 3em;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; 
+}
+
+.botton1::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.botton1:hover::before {
+    width: 9em;
 }
